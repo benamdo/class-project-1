@@ -59,13 +59,12 @@ function addFiveIfIndexSmallerThanTen(array) {
 
 //EX5
 
-function addFiveIfIndexSmallerThanTen(array) {
-    for (let i = 0; i < array.length; i++) {
-        if (i < 10) {
-            array[i] += 5;
-        }
+function findNumberInArray(array, number) {
+    if (array.includes(number)) {
+        return "found";
+    } else {
+        return "not found";
     }
-    console.log(array);
 }
 
 
