@@ -1,0 +1,143 @@
+Ex1
+A) the value of c is 15
+B) The value of num 1 is 34
+the value of naum 2 is  approximately 6.25
+
+
+Ex2
+the value of the variable number is 32
+
+
+Ex3
+
+1<=8 +1                                                      true
+(2-3+4)*(9+7) && false                                       false  
+10 + 18 >= 3 || 4<= 10                                       true
+10==10 || 10 === 10                                          true  
+10 == 10 && 20 == 30 || 5%2 == 1                             true 
+10 == 10 || 20 == 30 && 5%2 == 1                             true 
+20 == 30 || 10 == 10 || 5%2 == 0                             true
+(33 > 20) || (2 < 12) && 10 || 2<= 3 && !true                true 
+true && true || false || true                                true 
+true && false || 8< 10 && !false                             true   
+true || false && 5<= 9 || 10 != 38                           true 
+!false || !true && !false &&| !true                          true 
+(!10) && (10) || (!10) && (10) && 2<9 || true                true
+(!false) || (!10)                                            true
+
+
+
+Ex4
+
+var A = 5;
+var B = 3;
+var C = 19;
+var D = -2;
+var X = 4;
+var Y = 1;
+
+console.log((5 * X) + 2 * ((3 + B) + 4)); // Expression 1
+console.log((5 * (X * 2) * 3) * (B + 4)); // Expression 2
+console.log(A == (B = 5 * 5 + Y)); // Expression 3
+console.log(A += (X + 5 + A - Y)); // Expression 4
+console.log(A != (C *= (-D + A))); // Expression 5
+console.log(A *= A + (7 - X - D + 3)); // Expression 6
+console.log(A %= D++); // Expression 7
+console.log(A %= ++D); // Expression 8
+console.log((X++) * (A + C) + (A++)); // Expression 9
+console.log(A-- + X * (B < A) + Y * !(B < C) + 5 % 2); // Expression 10
+console.log(!(X - D + C) || D + B + A && D++); // Expression 11
+console.log(A && C || !0 && A && !D); // Expression 12
+console.log(((A && B) || (!0 && C)) && !D || A || B && Y); // Expression 13
+console.log(((A && C) || !0) && (C && (!D)) && !A || !B); // Expression 14
+
+
+Expression 1: 46
+Expression 2: 360
+Expression 3: true
+Expression 4: 20
+Expression 5: true
+Expression 6: 1000
+Expression 7: 0
+Expression 8: 1
+Expression 9: 202
+Expression 10: 7
+Expression 11: true
+Expression 12: false
+Expression 13: true
+Expression 14: true
+
+
+Ex5
+
+
+To make the if() statement TRUE:
+1)
+a = true;
+b = false;
+c = false;
+d = false;
+
+2)
+a = true;
+b = true;
+c = -1;
+d = 0;
+
+3)
+a = -1;
+b = false;
+c = 0;
+d = 1;
+
+4)
+a = 1;
+b = 0;
+c = false;
+d = 0;
+
+5) always be true 
+
+6) always be true
+
+7) 
+a = 10;
+b = 2;
+c = 7;
+d = 3;
+
+To make the if() statement FALSE:
+
+1)
+a = false;
+b = false;
+c = false;
+d = false;
+
+2)
+a = true;
+b = false;
+c = 2;
+d = 1;
+
+3)
+a = 2;
+b = true;
+c = 1;
+d = 0;
+
+4)
+a = 0;
+b = 0;
+c = true;
+d = 0;
+
+5) cant do 
+
+6)cant do
+
+7)
+a = 7;
+b = 3;
+c = 6;
+d = 2;
