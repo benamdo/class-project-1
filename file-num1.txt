@@ -32,7 +32,7 @@ Ex4
 var A = 5;
 var B = 3;
 var C = 19;
-var D = -2;
+var D = -2;         
 var X = 4;
 var Y = 1;
 
@@ -52,18 +52,18 @@ console.log(((A && B) || (!0 && C)) && !D || A || B && Y); // Expression 13
 console.log(((A && C) || !0) && (C && (!D)) && !A || !B); // Expression 14
 
 
-Expression 1: 46
-Expression 2: 360
-Expression 3: true
-Expression 4: 20
+Expression 1: 40
+Expression 2: 840
+Expression 3: false
+Expression 4: 18
 Expression 5: true
-Expression 6: 1000
+Expression 6: 65
 Expression 7: 0
-Expression 8: 1
-Expression 9: 202
-Expression 10: 7
+Expression 8: NaN
+Expression 9: 720
+Expression 10: undefind
 Expression 11: true
-Expression 12: false
+Expression 12: true
 Expression 13: true
 Expression 14: true
 
