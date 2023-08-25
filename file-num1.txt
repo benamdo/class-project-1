@@ -36,20 +36,20 @@ var D = -2;
 var X = 4;
 var Y = 1;
 
-console.log((5 * X) + 2 * ((3 + B) + 4)); // Expression 1
-console.log((5 * (X * 2) * 3) * (B + 4)); // Expression 2
-console.log(A == (B = 5 * 5 + Y)); // Expression 3
-console.log(A += (X + 5 + A - Y)); // Expression 4
-console.log(A != (C *= (-D + A))); // Expression 5
-console.log(A *= A + (7 - X - D + 3)); // Expression 6
-console.log(A %= D++); // Expression 7
-console.log(A %= ++D); // Expression 8
-console.log((X++) * (A + C) + (A++)); // Expression 9
-console.log(A-- + X * (B < A) + Y * !(B < C) + 5 % 2); // Expression 10
-console.log(!(X - D + C) || D + B + A && D++); // Expression 11
-console.log(A && C || !0 && A && !D); // Expression 12
-console.log(((A && B) || (!0 && C)) && !D || A || B && Y); // Expression 13
-console.log(((A && C) || !0) && (C && (!D)) && !A || !B); // Expression 14
+(5 * X) + 2 * ((3 + B) + 4); // Expression 1
+((5 * (X * 2) * 3) * (B + 4)); // Expression 2
+(A == (B = 5 * 5 + Y)); // Expression 3
+(A += (X + 5 + A - Y)); // Expression 4
+(A != (C *= (-D + A))); // Expression 5
+(A *= A + (7 - X - D + 3)); // Expression 6
+(A %= D++); // Expression 7
+(A %= ++D); // Expression 8
+((X++) * (A + C) + (A++)); // Expression 9
+(A-- + X * (B < A) + Y * !(B < C) + 5 % 2); // Expression 10
+(!(X - D + C) || D + B + A && D++); // Expression 11
+(A && C || !0 && A && !D); // Expression 12
+(((A && B) || (!0 && C)) && !D || A || B && Y); // Expression 13
+(((A && C) || !0) && (C && (!D)) && !A || !B); // Expression 14
 
 
 Expression 1: 40
@@ -58,8 +58,8 @@ Expression 3: false
 Expression 4: 18
 Expression 5: true
 Expression 6: 65
-Expression 7: 0
-Expression 8: NaN
+Expression 7: 1
+Expression 8: 0
 Expression 9: 720
 Expression 10: undefind
 Expression 11: true

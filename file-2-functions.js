@@ -37,19 +37,20 @@ function checkNumberEquality(a, b, c, d) {
 function getDayOfWeek(number) {
     switch (number) {
         case 1:
-            return "Sunday";
+            return "Sunday"
         case 2:
-            return "Monday";
+            return "Monday"
         case 3:
-            return "Tuesday";
+            return "Tuesday"
         case 4:
-            return "Wednesday";
+            return "Wednesday"
         case 5:
-            return "Thursday";
+            return "Thursday"
         case 6:
-            return "Friday";
+            return "Friday"
         case 7:
-            return "Saturday";
+            return "Saturday"
+
         default:
             return "Error";
     }
@@ -60,16 +61,25 @@ function getDayOfWeek(number) {
 function getDaysInMonth(monthNumber) {
     switch (monthNumber) {
         case 1: // January
+        break
         case 3: // March
+        break
         case 5: // May
+        break
         case 7: // July
+        break
         case 8: // August
+        break
         case 10: // October
+        break
         case 12: // December
             return 31;
         case 4: // April
+        break
         case 6: // June
+        break
         case 9: // September
+        break
         case 11: // November
             return 30;
         case 2: // February
